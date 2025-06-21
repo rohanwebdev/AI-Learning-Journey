@@ -85,3 +85,20 @@
 # else:
 #     print(f"{copy} is not an armstrong number>")
 
+
+
+"OR"
+
+num = int(input("Enter a number to check : "))
+copy = num
+count = len(str(num))
+sum = 0
+while (num  > 0):
+    digit = num % 10
+    sum += digit**count
+    num = num// 10
+
+if(sum == copy):
+    print(f"Yes! {copy} is an armstrong number")
+else:
+    print(f"No! {copy} is not an armstrong number")
