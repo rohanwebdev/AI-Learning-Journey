@@ -11,13 +11,13 @@ while True:
         numberOfTurns += 1
         guess = int(input("Guess a number between 1-6. "))
         dice_number = random.randint(1, 6)
-        print(f"🎲 You rolled a {dice_number}!\n")
+        print(f"🎲 You rolled a {dice_number}!")
         if(guess == dice_number):
             print("bravo!!!  ")
             score += 1
         else:
             print("Better luck next time.")
-        print(f"Your score is {score}/{numberOfTurns}")
+        print(f"Your score is {score}/{numberOfTurns}\n")
 
     elif user_input == "exit":
         print("👋 Exiting the AI Dice Simulator. Bye!")
