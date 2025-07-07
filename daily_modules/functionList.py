@@ -12,9 +12,34 @@
 #     #otherwise, n is prime number.
 #     return True
 
-def add_nums(a,b):
-    result = a+b
-    return result
 
-sum = add_nums(3,5)
-print(f"Sum is {sum}")
+
+# def add_nums(a,b):
+#     result = a+b
+#     return result
+
+# sum = add_nums(3,5)
+# print(f"Sum is {sum}")
+
+
+"Write a recursive function."
+def parentFunc():
+    hello()
+def hello():
+    print("Hello Function.")
+    today()
+def today():
+    print("Today's Function.")
+    jump()
+def jump():
+    print("Jump Function.")
+    addition()
+def addition():
+    print("Addition Function.")
+    bye()
+def bye():
+    print("Bye Function.")
+    exit()
+def exit():
+    print("Exit Function.")
+parentFunc()
