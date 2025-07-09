@@ -137,3 +137,86 @@
 # list2 = [1, 2, 3]
 # list1.extend(list2)
 # print(list1)
+
+
+"Task: WAF that gets size from user input then append the elems in the list then print it."
+# def list(num):
+#     list = []
+#     for i in range(num):
+#         index = int(input(f"Enter the element at index[{i}]: ")) 
+#         list.append(index)
+#     return list
+# number = int(input("Enter the length of the list: "))
+# result = list(number)
+# print(f"The size of list is {number} and appended list is {result}")
+
+
+"Count how many even and odd numbers are present in the list."
+# def count(numlist):
+#     oddCount = 0
+#     evenCount = 0
+#     size = len(numlist)
+#     for i in range (size):
+#         if(num_list[i]%2 == 0):
+#             evenCount += 1
+#         else:
+#             oddCount += 1
+#     return evenCount, oddCount
+
+# input_str = input("Enter numbers separated by space: ")
+# num_list = [int(i) for i in input_str.split()]
+# evenCount, oddCount = count(num_list)
+# print(f"The no. of EVEN numbers is {evenCount} \nThe no. of ODD numbers is {oddCount}")
+
+
+
+# def list(strlist):
+#     num_list = [int(i) for i in strlist.split()]
+#     return num_list
+
+# str_list = input("Enter the elems of the list separated by space: ")
+# result = list(str_list)
+# print(f"The list is {result}")
+
+
+"Given an array, remove all duplicates and return a list of unique elements."
+# def dupsremove(strlist):
+#     num_list = [int(i) for i in strlist.split()]
+#     newList = []
+#     for i in num_list:
+#         if i not in newList:
+#             newList.append(i)
+#     return newList
+
+# str_list = input("Enter the elems of the list separated by space: ")
+# result = dupsremove(str_list)
+# print(f"The list after deleting elems is {result}")
+
+"Find the second highest number in a list."
+# def second_Highest_Elem(strlist):
+#     num_list = [int(i) for i in strlist.split()]
+    
+#     # Remove duplicates to get distinct values only
+#     unique_nums = list(set(num_list))
+
+#     if len(unique_nums) < 2:
+#         return "No second highest found"
+
+#     unique_nums.sort(reverse=True)
+#     return unique_nums[1]
+
+# str_list = input("Enter the elems of the list separated by space: ")
+# result = second_Highest_Elem(str_list)
+# print(f"The second highest number in the list is {result}")
+
+
+"Sort the list using any sorting logic like bubble sort or selection sort (don't use sort() or sorted())."
+# def list(num):
+#     list = []
+#     for i in range(num):
+#         index = int(input(f"Enter the element at index[{i}]: ")) 
+#         list.append(index)
+#     return list
+# number = int(input("Enter the length of the list: "))
+# result = list(number)
+# print(f"The size of list is {number} and appended list is {result}")
