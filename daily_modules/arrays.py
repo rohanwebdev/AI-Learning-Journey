@@ -307,3 +307,23 @@
 # num_list2 = [int(i) for i in str_list2.split()]
 # list3, originalList = mergeSort(num_list1, num_list2)
 # print(f"First list: {num_list1}\nSecond List: {num_list2}\nCombined added: {originalList}\nSorted list : {list3}")
+
+
+"Count how often each number appears in a list."
+# def countNum(numList):
+#     freq = {}
+#     count = 0
+#     for i in numList:
+#         if i in freq:
+#             freq[i] += 1
+#         else:
+#             freq[i] = 1
+#     for key in freq:
+#         print(f"{key} appears {freq[key]} times")
+
+# strList = input("Enter the list elems separated by space: ")
+# num_List = [int(x) for x in strList.split()]
+# countNum(num_List)
+
+
+""
