@@ -326,4 +326,30 @@
 # countNum(num_List)
 
 
-""
+"Remove Duplicates from a List Without Using Set"
+"→ Understand membership checking and maintain order."
+# def remDups(lst):
+#     uniqueList = []
+#     for i in lst:
+#         if i not in uniqueList:
+#             uniqueList.append(i)
+#     return uniqueList
+# strList = input("Enter the list elems separated by space: ")
+# num_List = [int(x) for x in strList.split()]
+# unique_List = remDups(num_List)
+# print(f"The list with unique elems is: {unique_List}")
+
+"Find Common Elements Between Two Lists."
+"→ Practice nested loops or use in keyword."
+# def commonElems(lst1, lst2):
+#     commonLst= []
+#     for i in lst1:
+#         if i in lst2 and i not in commonLst:
+#             commonLst.append(i)
+#     return commonLst
+# strList1 = input("Enter the list1 elems separated by space: ")
+# num_List1 = [int(x) for x in strList1.split()]
+# strList2 = input("Enter the list2 elems separated by space: ")
+# num_List2 = [int(x) for x in strList2.split()]
+# common_Lst = commonElems(num_List1, num_List2)
+# print(f"The common elems btween list1 and list2 are: {common_Lst}")
