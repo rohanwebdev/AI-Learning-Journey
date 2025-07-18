@@ -353,3 +353,39 @@
 # num_List2 = [int(x) for x in strList2.split()]
 # common_Lst = commonElems(num_List1, num_List2)
 # print(f"The common elems btween list1 and list2 are: {common_Lst}")
+
+
+"Rotate a List to the Right or Left (Circular Shift)"
+"→ Learn slicing and manipulation."
+# def rotate_list(lst, k, direction):
+#     n = len(lst)
+#     k = k % n
+#     if direction == "left":
+#         return lst[k:] + lst[:k]
+#     elif direction == "right":
+#         return lst[-k:] + lst[:-k]
+#     else:
+#         return lst
+
+# # Input from user
+# user_input = input("Enter the list elements separated by space: ")
+# lst = [int(x) for x in user_input.split()]
+
+# k = int(input("Enter the number of positions to rotate: "))
+# direction = input("Enter direction (left/right): ").lower()
+
+# rotated = rotate_list(lst, k, direction)
+# print("Rotated List:", rotated)
+
+
+"Find the Pair of Elements That Add Up to a Given Number."
+"→ Practice with two-pointer technique or nested loops."
+def pair(lst,target):
+    for i in range(len(lst)):
+        for j in range(i+1, len(lst)):
+            if lst[i] + lst[j] == target:
+                print(lst[i], lst[j])
+user_input = input("Enter the list elements separated by space: ")
+lst = [int(x) for x in user_input.split()]
+target = input("Enter the target: ")
+pair(lst,target)
