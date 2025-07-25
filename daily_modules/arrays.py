@@ -367,6 +367,7 @@
 #     else:
 #         return lst
 
+
 # # Input from user
 # user_input = input("Enter the list elements separated by space: ")
 # lst = [int(x) for x in user_input.split()]
